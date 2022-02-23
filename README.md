@@ -1,1 +1,2 @@
-# T3-OcMVP
+# MVP
+The code of Multi-Vehicle Pursuit
