@@ -1,8 +1,8 @@
-import radar.domain as domain
-import radar.algorithm as algorithm
-import radar.experiments as experiments
-import radar.data as data
-import radar.utils as utils
+import T3OMVP.domain as domain
+import T3OMVP.algorithm as algorithm
+import T3OMVP.experiments as experiments
+import T3OMVP.data as data
+import T3OMVP.utils as utils
 import sys
 from settings import params, nr_steps
 

@@ -1,8 +1,8 @@
 import random
 import numpy
 import torch
-from radar.utils import get_param_or_default
-from radar.utils import pad_or_truncate_sequences
+from T3OMVP.utils import get_param_or_default
+from T3OMVP.utils import pad_or_truncate_sequences
 
 class ReplayMemory:
 

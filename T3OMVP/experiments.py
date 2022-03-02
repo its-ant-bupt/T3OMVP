@@ -1,9 +1,9 @@
-import radar.data as data
+import T3OMVP.data as data
 from os.path import join
 import numpy
 import random
-import radar.algorithm as algorithm
-import radar.controller_loader as controller_loader
+import T3OMVP.algorithm as algorithm
+import T3OMVP.controller_loader as controller_loader
 from torch.utils.tensorboard import SummaryWriter
 import time
 import torch

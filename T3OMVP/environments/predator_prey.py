@@ -1,11 +1,11 @@
 import random
 import numpy
 from gym import spaces
-from radar.environments.environment import GridWorldEnvironment, GridWorldObject, GRIDWORLD_ACTIONS
-from radar.utils import get_param_or_default, check_value_not_none, get_value_if
+from T3OMVP.environments.environment import GridWorldEnvironment, GridWorldObject, GRIDWORLD_ACTIONS
+from T3OMVP.utils import get_param_or_default, check_value_not_none, get_value_if
 from settings import params
-# from radar.experiments import
-from radar.agents.controller import Controller
+# from T3OMVP.experiments import
+from T3OMVP.agents.controller import Controller
 
 AGENT_CHANNEL = 0
 PREY_CHANNEL = 1

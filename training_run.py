@@ -1,8 +1,8 @@
-import radar.domain as domain
-import radar.algorithm as algorithm
-import radar.experiments as experiments
-import radar.data as data
-import radar.utils as utils
+import T3OMVP.domain as domain
+import T3OMVP.algorithm as algorithm
+import T3OMVP.experiments as experiments
+import T3OMVP.data as data
+import T3OMVP.utils as utils
 import sys
 import os
 from os.path import join
@@ -22,8 +22,8 @@ def parse_args():
     parser.add_argument("--exp_name", type=str, default="test", help="adition name of the experiment")  # 实验名
     parser.add_argument("--batch_size", type=int, default=32, help="The train batch size")
     parser.add_argument("--domain_name", type=str, default="VehiclePursuit-8", help="The domain of training")
-    parser.add_argument("--alg_name", type=str, default="AC-QMIX", help="The algorithm name of training")
-    parser.add_argument("--lof", type=int, default=0, help="The format of observation")
+    parser.add_argument("--alg_name", type=str, default="QMIX", help="The algorithm name of training")
+    parser.add_argument("--lof", type=int, default=2, help="The format of observation")
     parser.add_argument("--reload", action="store_true", default=False, help="reload the model")
     parser.add_argument("--reload_exp", type=str, default=None, help="The reload exp name")
     parser.add_argument("--decoupling", action="store_true", default=False, help="Use the policy decoupling")

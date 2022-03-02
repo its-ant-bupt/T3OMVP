@@ -1,5 +1,5 @@
-import radar.environments.predator_prey as predator_prey
-import radar.environments
+import T3OMVP.environments.predator_prey as predator_prey
+import T3OMVP.environments
 
 def make(domain, params={}):
     if domain.startswith("PredatorPrey-"):

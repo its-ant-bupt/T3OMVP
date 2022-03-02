@@ -1,7 +1,7 @@
-import radar.algorithm as algorithm
-import radar.data as data
+import T3OMVP.algorithm as algorithm
+import T3OMVP.data as data
 from os.path import join
-import radar.utils as utils
+import T3OMVP.utils as utils
 import random
 
 def get_paths(basepath, algorithm_name, params):

@@ -1,4 +1,4 @@
-from radar.agents.dqn import DQNLearner
+from T3OMVP.agents.dqn import DQNLearner
 import torch
 import torch.nn.functional as F
 

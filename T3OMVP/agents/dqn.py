@@ -1,6 +1,6 @@
-from radar.agents.controller import DeepLearningController, ReplayMemory
-from radar.modules import MLP, AdversarialModule, UPDeT
-from radar.utils import argmax, get_param_or_default
+from T3OMVP.agents.controller import DeepLearningController, ReplayMemory
+from T3OMVP.modules import MLP, AdversarialModule, UPDeT
+from T3OMVP.utils import argmax, get_param_or_default
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

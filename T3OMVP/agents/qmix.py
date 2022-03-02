@@ -1,9 +1,9 @@
-from radar.agents.vdn import VDNLearner
+from T3OMVP.agents.vdn import VDNLearner
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy
-from radar.utils import get_param_or_default
+from T3OMVP.utils import get_param_or_default
 
 class QMIXNetwork(nn.Module):
     def __init__(self, input_shape, nr_agents, mixing_hidden_size=128, params=None):
