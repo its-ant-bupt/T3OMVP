@@ -15,7 +15,7 @@ The code of Transformer-based Team and Time Reinforcement Learning Scheme for Ob
 ### Installation
 - Clone this repo:
 ```bash
-git clone https://github.com/pipihaiziguai/T3OMVP.git
+git clone https://github.com/its-ant-bupt/T3OMVP.git
 cd T3OMVP
 ```
 ### Test the pre-trained model
